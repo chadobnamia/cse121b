@@ -76,7 +76,7 @@ const filterTemples = (temples) => {
             break;
     }
 };
-
+getTemples();
 /* Event Listener */
 document.querySelector('#filtered').addEventListener('change', () => {
     // Call the filterTemples function and pass an arrow function result with the templeList as the argument
