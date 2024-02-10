@@ -1,5 +1,7 @@
 /* W05: Programming Tasks */
 
+
+
 /* Declare and initialize global variables */
 const templesElement = document.querySelector('#temples');
 let templeList = [];
@@ -31,7 +33,7 @@ const displayTemples = (temples) => {
 /* async getTemples Function using fetch()*/
 const getTemples = async () => {
         // Fetch temple data
-        const response = await fetch('https://byui-cse.github.io/cse121b-ww-course/resources/temples.json');
+        const response = await fetch("https://byui-cse.github.io/cse121b-ww-course/resources/temples.json");
 
         // Convert response to JavaScript object
         templeList = await response.json();
