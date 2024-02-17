@@ -3,7 +3,7 @@
 /* FUNCTIONS */
 /* Function Definition - Add Numbers */
 function add(number1, number2){
-    return isNumber(number1) + isNumber(number2);
+    return number1 + number2;
 }
 function addNumbers(){
     let addNumber1 = Number(document.querySelector('#add1').value);
@@ -14,7 +14,7 @@ document.querySelector('#addNumbers').addEventListener('click', addNumbers);
 
 /* Function Expression - Subtract Numbers */
 function subtract (number1, number2){
-    return isNumber(number1) - isNumber(number2); 
+    return number1 - number2; 
 }
 function subtractNumbers(){
     let subtractNumber1 = Number(document.querySelector('#subtract1').value);
@@ -24,7 +24,7 @@ function subtractNumbers(){
 document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
 /* Arrow Function - Multiply Numbers */
-const multiply = (factor1, factor2) => isNumber(factor1) * isNumber(factor2);    
+const multiply = (factor1, factor2) => factor1 * factor2;    
 
 const multiplyNumbers = () =>{
     let multiplyNumber1 = Number(document.querySelector('#factor1').value);
@@ -34,7 +34,7 @@ const multiplyNumbers = () =>{
 document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers)
 
 /* Open Function Use - Divide Numbers */
-const divide = (dividend, divisor) => isNumber(dividend)/ isNumber(divisor);    
+const divide = (dividend, divisor) => dividend/ divisor;    
 
 const divideNumbers = () =>{
     let dividend = Number(document.querySelector('#dividend').value);
