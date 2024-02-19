@@ -2,24 +2,24 @@
     {
         "shape":"Circle",
         "imageUrl":"",
-        "input":["Radius: <input type='number' id='radius'>"]
+        "input":"Radius: <input type='number' id='radius'>"
         
     },
     {
         "shape":"Rectangle",
         "imageUrl":"",
-        "input":["Length: <input type='number' id='length'>", "Width: <input type='number' id='width'>"]
+        "input":"Length: <input type='number' id='length'> Width: <input type='number' id='width'>"
     },
     {
         "shape":"Square",
         "imageUrl":"",
-        "input":["Side: <input type='number' id='side'>"]
+        "input":"Side: <input type='number' id='side'>"
 
     },
     {
         "shape":"Triangle",
         "imageUrl":"",
-        "input":["Base: <input type='number' id='base'>", "Height: <input type='number' id='height'>"]
+        "input":"Base: <input type='number' id='base'> Height: <input type='number' id='height'>"
     }
     
 ]
