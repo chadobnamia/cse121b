@@ -12,6 +12,7 @@ const getData = async () =>{
     geometryDeets = await response.json();
 }
 getData();
+
 document.querySelector('#shapes').addEventListener('change', () => {
     // Call the filterTemples function and pass an arrow function result with the templeList as the argument
     displayContent(geometryDeets)});
