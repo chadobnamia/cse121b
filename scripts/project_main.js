@@ -25,7 +25,7 @@ const displayContent = (geometry) =>{
 }
 
 const getData = async () =>{
-    const response = await fetch ('https://github.com/chadobnamia/cse121b/blob/main/geometry.json');
+    const response = await fetch ('https://chadobnamia.github.io/cse121b/geometry.json');
 
     geometryDeets = await response.json();
 
