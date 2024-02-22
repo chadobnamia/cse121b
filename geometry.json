@@ -1,22 +1,22 @@
 [
-{
-    "shape":"Circle",
-    "imageUrl":"https://chadobnamia.github.io/cse121b/images/circle.png",
-    "input":"Radius: <input type='number' id='radius'>"
-},  
-{
-    "shape":"Rectangle",
-    "imageUrl":"https://chadobnamia.github.io/cse121b/images/rectangle.png",
-    "input":"Length:<input type='number' id='length'><br/><input type='number' id='width'><input type='button' id='calc'>"
-},
-{
-    "shape":"Square",
-    "imageUrl":"https://chadobnamia.github.io/cse121b/images/square.png",
-    "input":"Side: <input type='number' id='side'>"
-},
-{
-    "shape":"Triangle",
-    "imageUrl":"https://chadobnamia.github.io/cse121b/images/triangle.png",
-    "input":"Base: <input type='number' id='base'> Height: <input type='number' id='height'>"
-}
+	{
+		"shape": "Circle",
+		"imageUrl": "https://chadobnamia.github.io/cse121b/images/circle.png",
+		"input": "Radius: <input type='number' id='radius'>"
+	},
+	{
+		"shape": "Rectangle",
+		"imageUrl": "https://chadobnamia.github.io/cse121b/images/rectangle.png",
+		"input": "Length:<input type='number' id='length'><br/><input type='number' id='width'><input type='button' id='calc'>Calculate</button>"
+	},
+	{
+		"shape": "Square",
+		"imageUrl": "https://chadobnamia.github.io/cse121b/images/square.png",
+		"input": "Side: <input type='number' id='side'>"
+	},
+	{
+		"shape": "Triangle",
+		"imageUrl": "https://chadobnamia.github.io/cse121b/images/triangle.png",
+		"input": "Base: <input type='number' id='base'> Height: <input type='number' id='height'>"
+	}
 ]
