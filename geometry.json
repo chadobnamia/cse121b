@@ -1,9 +1,9 @@
 [
 {
     "shape":"Circle",
-    "imageUrl":"images/circle.png",
+    "imageUrl":"https://chadobnamia.github.io/cse121b/images/circle.png",
     "input":"Radius: <input type='number' id='radius'>"
-},
+},  
 {
     "shape":"Rectangle",
     "imageUrl":"https://chadobnamia.github.io/cse121b/images/rectangle.png",
