@@ -3,7 +3,7 @@ let geometryDeets = [];
 
 displayContent = (content) =>{
     const jsonContent = document.getElementById("parameters");
-    jsonContent.innerHTML = content.input;
+    jsonContent.innerHTML = content
 }
 
 const getData = async () =>{
