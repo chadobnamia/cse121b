@@ -1,17 +1,17 @@
 [
 {
     "shape":"Circle",
-    "imageUrl":"https://github.com/chadobnamia/cse121b/blob/main/final_project/images/circle.png",
+    "imageUrl":"https://chadobnamia.github.io/cse121b/images/circle.png",
     "input":"Radius: <input type='number' id='radius'>"
 },
 {
     "shape":"Rectangle",
-    "imageUrl":"https://github.com/chadobnamia/cse121b/blob/main/final_project/images/rectangle.png",
+    "imageUrl":"https://chadobnamia.github.io/cse121b/images/rectangle.png",
     "input":"Length: <input type='number' id='length'> Width: <input type='number' id='width'>"
 },
 {
     "shape":"Square",
-    "imageUrl":"https://github.com/chadobnamia/cse121b/blob/main/final_project/images/square.png",
+    "imageUrl":"https://chadobnamia.github.io/cse121b/images/square.png",
     "input":"Side: <input type='number' id='side'>"
 },
 {
