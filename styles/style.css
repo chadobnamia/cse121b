@@ -95,7 +95,7 @@ picture {
 }
 
 picture img {
-    width: 240px;
+    width: 100px;
     height: auto;
     border-radius: 5%;
     border: 1px solid #ccc;
