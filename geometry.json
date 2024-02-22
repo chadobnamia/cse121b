@@ -7,7 +7,7 @@
 	{
 		"shape": "Rectangle",
 		"imageUrl": "https://chadobnamia.github.io/cse121b/images/rectangle.png",
-		"input": "Length:<input type='number' id='length'><br/><input type='number' id='width'>"
+		"input": "Length:<input type='number' id='length'><br/>Width:<input type='number' id='width'>"
 	},
 	{
 		"shape": "Square",
