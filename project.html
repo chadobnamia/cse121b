@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Geometry  Calculator</title>
+    <title>Geometry Calculator</title>
 </head>
 <body>
     <header>
@@ -12,23 +12,20 @@
         <hr/>
     </header>
     <main>
-        <select id="shapes" title="Choose a your Geometry.">
-            <option value="" disabled selected>Shapes</option>
+
+        <select id="shapeSelect" onchange="filterShapes(geometryDeets)">
+            <option value="none"></option>
+            <option value="rectangle">Rectangle</option>
             <option value="circle">Circle</option>
             <option value="triangle">Triangle</option>
-            <option value="square">Square</option>
-            <option value="rectangle">Rectangle</option>
-            <option value="trapezoid">Trapezoid</option>
-            <option value="parallelogram">Trapezoid</option>
-            <option value="ellipse">Ellipse</option>
-          </select>
-
-          <div id="parameters">
+        </select>
+        <div id="geometry">
+        
         </div>
-        <button id="calculateArea">Calculate Area</button>
-        <div id="result">
-
-        </div>
+        
+        <button onclick="calculateArea()">Calculate Area</button>
+        
+        <div id="result"></div>
     </main>
     <footer>
 
