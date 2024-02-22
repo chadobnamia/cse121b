@@ -1,13 +1,13 @@
 [
 {
     "shape":"Circle",
-    "imageUrl":"https://chadobnamia.github.io/cse121b/images/circle.png",
+    "imageUrl":"https://trigidentities.info/wp-content/uploads/2020/11/Area-of-circle.jpg",
     "input":"Radius: <input type='number' id='radius'>"
 },
 {
     "shape":"Rectangle",
     "imageUrl":"https://chadobnamia.github.io/cse121b/images/rectangle.png",
-    "input":"Length: <input type='number' id='length'> Width: <input type='number' id='width'>"
+    "input":"Length:<input type='number' id='length'><input type='number' id='width'><input type='button' id='calc'>"
 },
 {
     "shape":"Square",
