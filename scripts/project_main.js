@@ -103,7 +103,7 @@ switch(filterval){
 });
 
 
-function calc() {
+function areaCalc() {
     const shape = document.querySelector('#filtered').value;
     let area;
 

@@ -17,6 +17,6 @@
 	{
 		"shape": "Triangle",
 		"imageUrl": "https://chadobnamia.github.io/cse121b/images/triangle.png",
-		"input": "Base: <input type='number' id='base'> <br/>Height: <input type='number' id='height'<br/><input type='button' id='calc' value='Calculate' onclick='areaCalc()'>"
+		"input": "Base: <input type='number' id='base'><br/>Height: <input type='number' id='height'><br/><input type='button' id='calc' value='Calculate' onclick='areaCalc()'>"
 	}
 ]
