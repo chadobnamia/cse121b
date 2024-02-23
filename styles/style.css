@@ -136,7 +136,8 @@ input[type="button"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%
+    width: 30%;
+    margin-top:20px
 }
 
 input[type="checkbox"] {
@@ -277,6 +278,11 @@ footer {
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
+}
+
+#calc
+{
+    width:200px;
 }
 
 /* Media Queries */
