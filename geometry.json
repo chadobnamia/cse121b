@@ -2,7 +2,7 @@
 	{
 		"shape": "Circle",
 		"imageUrl": "https://chadobnamia.github.io/cse121b/images/circle.png",
-		"input": "Radius: <input type='number' id='radius'<br/><input type='button' id='calc' value='Calculate' onclick='areaCalc()'><br/><h3 id='result'></h3>"
+		"input": "Radius: <input type='number' id='radius'><br/><input type='button' id='calc' value='Calculate' onclick='areaCalc()'><br/><h3 id='result'></h3>"
 	},
 	{
 		"shape": "Rectangle",
@@ -12,7 +12,7 @@
 	{
 		"shape": "Square",
 		"imageUrl": "https://chadobnamia.github.io/cse121b/images/square.png",
-		"input": "Side: <input type='number' id='side'<br/><input type='button' id='calc' value='Calculate' onclick='areaCalc()'><br/><h3 id='result'></h3>"
+		"input": "Side: <input type='number' id='side'><br/><input type='button' id='calc' value='Calculate' onclick='areaCalc()'><br/><h3 id='result'></h3>"
 	},
 	{
 		"shape": "Triangle",
