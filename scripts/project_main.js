@@ -87,21 +87,6 @@ document.querySelector('#filtered').addEventListener('change', () => {
     // Call the filterTemples function and pass an arrow function result with the templeList as the argument
     filterData(shapeList);
 
-const filterVal = document.querySelector('#filtered').value
-
-switch(filterval){
-    case "Rectangle":
-        var a = document.querySelector("#length").value;
-        var a = document.querySelector("#width").value;
-        document.querySelector('button').addEventListener('click', (a,b)=>{
-            const span = document.createElement('span');
-            span = a * b;
-            document.querySelector('#areaGeometry').appendChild(span)
-        })
-    break;
-}
-});
-
 
 function areaCalc() {
     const shape = document.querySelector('#filtered').value;
