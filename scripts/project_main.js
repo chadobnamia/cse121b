@@ -101,12 +101,12 @@ function areaCalc() {
         const width = parseFloat(document.getElementById('width').value);
         area = length * width;
     } else if (shape === 'circle') {
-        const radius = parseFloat(document.getElementById('side').value);
+        const radius = parseFloat(document.getElementById('radius').value);
         area = Math.PI * radius * radius;
     }else if (shape === 'triangle'){
-        const length = parseFloat(document.getElementById('length').value);
-        const width = parseFloat(document.getElementById('width').value);
+        const base = parseFloat(document.getElementById('base').value);
+        const height = parseFloat(document.getElementById('height').value);
         area = 0.5 * (base * height);
     }
-    document.getElementById('result').innerText = `The area is ${area.toFixed(2)}`
+    document.getElementById('result').textContent = `The area is ${area.toFixed(2)}`
 };
